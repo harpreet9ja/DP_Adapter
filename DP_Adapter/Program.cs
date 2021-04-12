@@ -6,7 +6,8 @@ namespace DP_Adapter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Client client = new Client(new Adapter());
+            client.ShowEmployeeList();
         }
     }
 }
